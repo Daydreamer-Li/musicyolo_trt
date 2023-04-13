@@ -26,7 +26,7 @@ Step1. generate result.
 python predict_with_window.py --audiodir $SSVD_TEST_SET_PATH --savedir $SAVE_PATH --ext .flac -cf ./yolo.json  -c ./model/alexnet_trt.pth  --device gpu
 ```
 
-Step1. caculate f1.
+Step2. caculate f1.
 ```shell
 python caculate_f1.py --label_path $SSVD_TEST_SET_PATH --result_path $YOUR_SAVE_PATH
 ```
