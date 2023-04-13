@@ -16,7 +16,8 @@
 | COnPOff | 83.33 | 83.04 |83.66|
 | COnPOff_trt | 82.52| 81.75 | 83.41|
 
-
+## Download trt model
+The models are stored in BaiduYun : https://pan.baidu.com/s/1jOidaoE091h9xmqbcKWQrA code: 68ju
 
 ## Inference
 
