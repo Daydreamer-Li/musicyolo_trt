@@ -1,4 +1,4 @@
-# musicyolo_trt
+# MusicYOLO_with_trt
 相较于musicyolo而言，改进如下：
 1. 将依赖于yolox的函数单独提取出来，不再需要yolox的框架；
 2. 将模型转换为tensorrt模型，加速了模型计算

@@ -1,0 +1,43 @@
+{
+  "model_name": "musicyolo",
+  "cqt": {
+    "sr": 44100,
+    "fmin": 27.5,
+    "hop": 512,
+    "bins_per_octave": 24,
+    "n_bins": 178,
+    "overlap_ratios": [0.1, 0.9],
+    "duration": 3.0
+  },
+  "min_duration": 0.1,
+  "common_config": {
+    "scale_height": 1.93258, 
+    "scale_width": 1.93741, 
+    "midi_shift": -20,
+    "cross_time": 0.1
+  },
+  "pitch_config":{
+    "pitch_bins_per_octave": 60, 
+    "pitch_n_bins": 445, 
+    "yolox_pixels": 178, 
+    "First_search_range": 40,
+    "Second_search_range": 4, 
+    "min_midi": 21, 
+    "bottom_pixel_threshould": 8
+  },
+  "m_config": {
+    "convert2image": true,
+    "pre_weights": true,
+    "height": 178,
+    "width": 258,
+    "anchor_num": 3,
+    "anchors": [[18.70,98.86], [29.01,101.33], [41.40,98.15], [57.29,105.94], [86.45,93.03], [159.47,96.56 ]]
+  },
+  "dataset_dir" : "/home/data/SSVD-v2.0",
+  "checkdata_dir": null,
+  "test": {
+    "test_checkdata_dir": "test_check",
+    "overlap_ratio": 0.5
+  },
+  "save_dir": "/home/data/wxk/tmp_musicyolo_model/image192x352cqt_input_pretrain_overlap0.1-0.9-batch8-mixup"
+}
